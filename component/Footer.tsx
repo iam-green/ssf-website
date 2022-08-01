@@ -34,7 +34,7 @@ const Footer = () => {
                     float: 'left',
                     width: '60%',
                     marginTop: '30px',
-                    marginLeft: '16px',
+                    marginLeft: '60px',
                     alignItems: 'flex-start'
                 } 
             }}>
@@ -105,7 +105,8 @@ const Footer = () => {
                         fontSize: '15px',
                         lineHeight: '19px',
                         color: '#9F8F8A',
-                    }}>SSF 페이스북</span>
+                        cursor: 'pointer'
+                    }} onClick={()=>window.location.href='https://www.facebook.com/SSFKorea'}>SSF 페이스북</span>
                 </div>
                 <div style={{
                     display: 'flex',
@@ -119,7 +120,8 @@ const Footer = () => {
                         fontSize: '15px',
                         lineHeight: '19px',
                         color: '#9F8F8A',
-                    }}>선린 홈페이지</span>
+                        cursor: 'pointer'
+                    }} onClick={()=>window.location.href='https://sunrint.sen.hs.kr/'}>선린 홈페이지</span>
                 </div>
             </div>
         </footer>
