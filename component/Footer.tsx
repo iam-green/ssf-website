@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import { CSSProperties, useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 const FooterCSS: CSSProperties = {
@@ -7,24 +7,36 @@ const FooterCSS: CSSProperties = {
 }
 
 const Footer = () => {
-    const isDesktop = useMediaQuery({ minWidth: 795 });
+    const desktop = useMediaQuery({ minWidth: 795 });
+    const [ isDesktop, setIsDesktop ] = useState(true);
+
+    useEffect(()=>setIsDesktop(desktop),[desktop]);
+    
     return (
-        <footer style={ isDesktop ? {
+        <footer style={{
             ...FooterCSS,
-            height: '191px',
-            // display: 'flex',
-            // flexDirection: 'row',
-            // justifyContent: 'center'
-        } : {
-            ...FooterCSS,
-            height: '254px',
-        } }>
+            ...isDesktop ? {
+                height: '191px',
+                flexDirection: 'row',
+                display: 'flex',
+            } : {
+                height: '254px',
+            }
+        }}>
             <div style={{
                 display: 'flex',
                 flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'space-evenly',
-                flexGrow: '1'
+                justifyContent: 'center',
+                flexGrow: 1,
+                ...isDesktop ? {
+                    alignItems: 'center',
+                } : {
+                    float: 'left',
+                    width: '60%',
+                    marginTop: '30px',
+                    marginLeft: '16px',
+                    alignItems: 'flex-start'
+                } 
             }}>
                 <div style={{
                     display: 'flex',
@@ -38,10 +50,9 @@ const Footer = () => {
                         fontSize: '20px',
                         lineHeight: '25px',
                         color: '#55423D',
-                        margin: '10px',
-                        marginRight: '10px'
+                        margin: '10px 10px 10px 5px',
                     }}>선린인터넷고등학교</span>
-                    <img src='images/sunrin.svg' alt='선린인터넷고등학교 로고'/>
+                    <img src='images/sunrin.svg' alt='선린인터넷고등학교 로고' />
                 </div>
                 <span style={{
                     fontFamily: 'SUIT',
@@ -67,9 +78,49 @@ const Footer = () => {
                 </span>
             </div>
             <div style={{
-
+                flexGrow: 1,
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'center',
+                ...isDesktop ? {
+                    marginBottom: '40px',
+                    alignItems: 'flex-end'
+                } : {
+                    clear: 'both',
+                    float: 'right',
+                    height: '50%',
+                    width: '60%',
+                    alignItems: 'center'
+                }
             }}>
-                
+                <div style={{
+                    display: 'flex',
+                    margin: '5px'
+                }}>
+                    <img src='images/facebook_brown.png' width='20px' height='20px' />
+                    <span style={{
+                        fontFamily: 'SUIT',
+                        fontStyle: 'normal',
+                        fontWeight: '500',
+                        fontSize: '15px',
+                        lineHeight: '19px',
+                        color: '#9F8F8A',
+                    }}>SSF 페이스북</span>
+                </div>
+                <div style={{
+                    display: 'flex',
+                    margin: '5px'
+                }}>
+                    <img src='images/sunrin_brown.svg' width='20px' height='20px' />
+                    <span style={{
+                        fontFamily: 'SUIT',
+                        fontStyle: 'normal',
+                        fontWeight: '500',
+                        fontSize: '15px',
+                        lineHeight: '19px',
+                        color: '#9F8F8A',
+                    }}>선린 홈페이지</span>
+                </div>
             </div>
         </footer>
     )

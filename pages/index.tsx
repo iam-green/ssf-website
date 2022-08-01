@@ -10,9 +10,14 @@ import MobileBanner from "../component/MobileBanner";
 import PageWrapper from "../component/PageWrapper";
 import Schedule from "../component/Schedule";
 import { useMediaQuery } from "react-responsive";
+import { useEffect, useState } from "react";
 
 const Home: NextPage = () => {
-    const isDesktop = useMediaQuery({ minWidth: 795 });
+    const desktop = useMediaQuery({ minWidth: 795 });
+    const [ isDesktop, setIsDesktop ] = useState(true);
+
+    useEffect(()=>setIsDesktop(desktop),[desktop]);
+    
     return (
         <>
             <Head>
@@ -21,8 +26,9 @@ const Home: NextPage = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Header/> { /* Error */ }
-            { isDesktop ? <Banner/> : <MobileBanner/> }  { /* Error */ }
+            <Header/>
+            { isDesktop ? <Banner/> : <MobileBanner/> }
+
             <PageWrapper>
                 <Introduce id='introduce'/>
                 <ClubList id='club'/>

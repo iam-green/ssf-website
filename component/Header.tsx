@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import { useEffect, useState, CSSProperties } from "react";
 import PageWrapper from "./PageWrapper";
 import { useMediaQuery } from "react-responsive";
 
@@ -8,7 +8,11 @@ const Link: CSSProperties = {
 }
 
 const Header = () => {
-    const isDesktop = useMediaQuery({ minWidth: 795 });
+    const desktop = useMediaQuery({ minWidth: 795 });
+    const [ isDesktop, setIsDesktop ] = useState(true);
+
+    useEffect(()=>setIsDesktop(desktop),[desktop]);
+
     return (
         <header style={{
             position: 'sticky',

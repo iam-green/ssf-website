@@ -66,7 +66,7 @@ const Banner = () => {
                         display: 'flex',
                         width: '148px',
                         flexDirection: 'row',
-                        justifyContent: 'space-between;',
+                        justifyContent: 'space-between',
                         alignItems: 'center',
                         padding: '10px 16px',
                         border: '1px solid #E3DAD7',
