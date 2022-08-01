@@ -1,0 +1,101 @@
+[
+    {
+        "name": "IWOP",
+        "desc": "나만의 키오스크 사이트 만들어보기",
+        "website": "https://iwop.kr",
+        "instagram": "https://www.instagram.com/iwop_sunrin",
+        "facebook": "https://www.facebook.com/sunrinIwop",
+        "club_desc": "선린인터넷고등학교의 대표 웹 동아리 IWOP 입니다. 2001년을 시작으로 2022학년도 기준 24기 모집 중입니다. 웹개발의 전반적인 지식을 배울 수 있으며, 우수한 실적과 커리큘럼을 보유하고 있습니다.",
+        "camp_desc": "HTML, CSS 을 통해 정적인 웹페이지를 구현, 디자인하는 것을 배우고, javascript 를 통해 실제로 동작하는 웹페이지까지 제작해봅니다. 마지막 프로젝트에서 학습한 것을 토대로 나만의 키오스크 사이트를 만들어볼 수 있습니다."
+    },
+    {
+        "name": "EDCAN",
+        "desc": "Android Studio를 활용한 나만의 일기장 어플리케이션 만들기",
+        "website": "https://edcan.kr",
+        "instagram": "https://www.instagram.com/sunrin_edcan",
+        "facebook": "https://www.facebook.com/edcancircle",
+        "club_desc": "새로운 모바일 콘텐츠 시대를 이끌어가는 크리에이터들의 동아리 EDCAN입니다.저희 EDCAN은 모바일 콘텐츠 개발반으로 안드로이드 앱, 웹 등 다양한 개발과 디자인을 공부합니다.저희 EDCAN은 남들이 같은것을 만들때 우리만의 것을 만드는 크리에이터들입니다.",
+        "camp_desc": "저희 EDCAN은 Android Studio를 사용한 나만의 일기장 앱을 만들어 보는 시간을 준비했습니다. Kotlin, XML, Android Studio 등 다양하고 재밌는 것들을 배워가세요!"
+    },
+    {
+        "name": "App:ple Pi",
+        "desc": "안드로이드 스튜디오로 To-Do List 만들기",
+        "website": "https://appplepi.com",
+        "instagram": "https://www.instagram.com/appple.pi.official",
+        "facebook": "https://www.facebook.com/app.plepi",
+        "club_desc": "선린 최초의 앱 개발 창업 동아리 App:ple Pi는 안드로이드 앱 개발과 UI/UX 디자인을 중점으로 매년 꾸준한 실적을 내고있습니다. 화목하고 즐거운 분위기와 체계적인 커리큘럼으로 인해 선후배간의 교류가 높은 편으로, 신입생이더라도 교내외에서 다양한 경험을 쌓을 수 있는 동아리입니다. 또한 신설된 4호관에 우수한 동아리실을 보유하고 있어 자유롭고 우수한 환경을 제공하고있습니다. 모바일의 혁신을 향하여, App:ple Pi",
+        "camp_desc": "App:ple Pi의 캠프에서는 Android 앱 개발을 위해 화면을 구성하는 XML과 기능을 구현하는 Kotlin에 대해 배우고, 배운 내용을 토대로 직접 안드로이드 스튜디오를 사용해 ToDoList 앱을 제작해 보는 시간을 준비 했습니다."
+    },
+    {
+        "name": "RG",
+        "desc": "RUN 2 U (RG와 함께 쿠키런 모작 만들기)",
+        "website": "https://sunrin-rg.github.io",
+        "instagram": "https://www.instagram.com/republic_of_game_rg",
+        "facebook": "https://www.facebook.com/sunrintrg",
+        "club_desc": "반갑습니다! 저희는 선린 게임개발 동아리 RG입니다. RG는 선후배간 수평적인 분위기를 지향하여 모두가 즐거운 분위기 안에서 동아리 활동을 진행합니다. 개발 팀에서는 C와 C++등의 언어에 대한 기초 지식을 배우고, 유니티 엔진을 통해 2D/3D 게임을 직접 만들어 볼 뿐 아니라 게임 기획 및 구조론까지도 배울 수 있습니다. 한편 디자인 팀에서는 2D드로잉과 픽셀아트 그래픽부터 3D툴을 이용한 모델링 작업 등을 진행합니다.",
+        "camp_desc": "선린인터넷고 게임개발 동아리 RG입니다. 내 손으로 직접 만드는 러닝게임 클래스를 준비했습니다. RG와 함께 유니티 게임개발을 배워보고 즐거운 경험을 담아갔으면 좋겠습니다!"
+    },
+    {
+        "name": "zer0pen",
+        "desc": "Unity로 만드는 야스오 키우기",
+        "website": "https://zer0pen.kr",
+        "instagram": "https://www.instagram.com/zer0pen_",
+        "facebook": "https://www.facebook.com/zer0pen",
+        "club_desc": "소프트웨어과 게임 개발 전문동아리 제로픈입니다. 제로픈은 자유로운 분위기를 지향하는 동시에 동아리내 활동 또한 자유로운 편입니다. 소프트웨어과와 콘텐츠디자인과 학생들이 어울려 게임을 만들어보고 서로 피드백하는 것이 주요 활동 중 하나입니다.소프트웨어과 (개발자) - C,C#,C++같은 프로그래밍언어의 전반적인 지식을 배우고,유니티를 사용한 게임 개발 및 게임을 기획하는 부분 등 게임 개발에 있어서 필요한 것들의 수업을 진행합니다. 콘텐츠디자인과 (디자이너) - 픽셀아트,캐릭터 디자인,게임 이펙트 등 다양한 분야의 게임 디자인을 배우고,포토샵이나 각종 프로그램을 다룰 수 있도록 수업을 진행합니다.",
+        "camp_desc": "선린인터넷고 개임 개발 동아리 Zer0pen입니다! 롤을 하시면서 야스오에게 화가 나셨던 적이 있으신가요? 제로픈과 함께 유니티로 직접 게임을 만들어서 야스오를 키워보세요!"
+    },
+    {
+        "name": "AnA",
+        "desc": "Node.js로 크롤링해보기",
+        "website": "https://www.sunrin-ana.kr",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/sunrinana",
+        "club_desc": "Node JS, 데이터베이스, 리눅스를 같이 학습하며, 전체적인 백엔드 개발을 배우는 동아리 입니다. 부가적으로 AWS와 git 수업을 진행하고 있습니다.",
+        "camp_desc": "AnA는 Node.js를 사용하여 여러 가지 웹페이지들을 크롤링하는 시간을 준비했습니다. 크롤링을 직접 해보며 서버란 무엇인지 알아가봅시다."
+    },
+    {
+        "name": "NEFUS",
+        "desc": "미세먼지를 측정해보자고~!",
+        "website": "http://nefus.kr",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/sunrinefus",
+        "club_desc": "IoT&Network 전공동아리",
+        "camp_desc": "NEFUS는 교내 유일무이한 IoT&Network 동아리입니다! NEFUS와 함께 IoT에 대해 알아가고 가까워지는 시간을 가져보면서 직접 활용하여 자신만의 IoT 작품을 만들어봅시다."
+    },
+    {
+        "name": "Emotion",
+        "desc": "Yolo스럽게 컴퓨터 비전 구현하기",
+        "website": "http://ernotion.kr",
+        "instagram": "https://www.instagram.com/sunrin_emotion._.00",
+        "facebook": "https://www.facebook.com/sunrinemotion",
+        "club_desc": "이모션은 선린인터넷고등학교 정보보호과 전공동아리로 인공지능에 관심을 가진 학생들이 모여 구성된 인공지능 개발 동아리입니다 :) 저희는 인공지능 개발에 기본이 되는 프로그래밍 언어 파이썬을 배우고, 파이썬을 이용한 데이터 분석과 인공지능의 기초적인 부분과 인공지능에서 꼭 알아야 하는 중요 개념들을 위주로 수업을 진행합니다. 또한 다양한 프로젝트를 진행함으로써 자신의 프로그래밍 실력과 인공지능 개발 실력을 향상시키는 동아리입니다.",
+        "camp_desc": "선린인터넷 고등학교 인공지능 전공동아리 Emotion입니다! 인공지능의 기초가 되는 파이썬과 인공지능의 학습방법을 배우고 yolo를 이용해 컴퓨터가 이미지를 판별할 수 있도록 해봅시다!"
+    },
+    {
+        "name": "Unifox",
+        "desc": "파이썬으로 만드는 멀티 게임",
+        "website": "http://unifox.kr",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/UnifoxToTheWorld",
+        "club_desc": "정보보호과 프로그래밍 동아리",
+        "camp_desc": "선린인터넷고등학교 프로그래밍 동아리 유니폭스입니다. 최근 개발자들에게 사랑받고 있는 python에 대해 알아보고, python을 활용해 친구들과 함께 할 수 있는 멀티게임을 만들어봅시다!"
+    },
+    {
+        "name": "TeamLog",
+        "desc": "나만의 LoL 전적 사이트 만들기",
+        "website": "http://teamlog.kr",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/sunrintog/",
+        "club_desc": "안녕 나를 소개하지 이름 팀로그 직업은 서버 프로그래밍 취미는 WEB, NETWORK, SERVER 원해? 이 모든 걸 하나로 아울러 주는 답 난 커다란 여정의 시작 앞에 서 있어 따라와 줘 원한다면 -2022 팀로그-",
+        "camp_desc": "TeamLog에서는 Flask와 Selenium을 이용한 크롤링을 준비하였습니다. 처음 접하시는 분도 쉽게 이해할 수 있도록 수업을 준비하였으니 부담 없이 들으시고 웹에 흥미를 느끼셨으면 좋겠습니다."
+    },
+    {
+        "name": "Layer7",
+        "desc": "치트엔진을 활용한 게임 분석 튜토리얼",
+        "website": "http://layer7.kr",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/letsgolayer7",
+        "club_desc": "해킹 전문 동아리",
+        "camp_desc": "웹, 포너블, 리버싱, 포렌식, 하드웨어 등의 다양한 해킹 지식을 익히는 정보보호과의 해킹동아리, Layer7입니다. 낯설고 어렵게만 느껴지는 해킹 이론을 조금 더 쉽게 이해할 수 있도록 피카츄 배구 게임 리버싱이라는 주제로 캠프를 준비했습니다. 많은 신청 부탁드립니다!"
+    }
+]

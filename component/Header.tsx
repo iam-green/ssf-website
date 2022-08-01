@@ -10,7 +10,6 @@ const Link: CSSProperties = {
 const Header = () => {
     const desktop = useMediaQuery({ minWidth: 795 });
     const [ isDesktop, setIsDesktop ] = useState(true);
-
     useEffect(()=>setIsDesktop(desktop),[desktop]);
 
     return (

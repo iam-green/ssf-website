@@ -10,7 +10,6 @@ const info_content = {
 const Introduce = ({ id }: { id: string }) => {
     const desktop = useMediaQuery({ minWidth: 1049 });
     const [isDesktop, setIsDesktop] = useState(true);
-
     useEffect(() => setIsDesktop(desktop), [desktop]);
 
     return (
@@ -76,8 +75,9 @@ const Introduce = ({ id }: { id: string }) => {
                             alignItems: 'center',
                             padding: '10px 16px',
                             border: '1px solid #E3DAD7',
-                            borderRadius: '12px'
-                        }}>
+                            borderRadius: '12px',
+                            cursor: 'pointer'
+                        }} onClick={()=>window.location.href='https://www.facebook.com/SSFKorea'}>
                             <span>SSF 페이스북 페이지</span>
                             <img src='images/arrow_forward.svg'></img>
                         </div>

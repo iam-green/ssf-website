@@ -15,7 +15,6 @@ import { useEffect, useState } from "react";
 const Home: NextPage = () => {
     const desktop = useMediaQuery({ minWidth: 795 });
     const [ isDesktop, setIsDesktop ] = useState(true);
-
     useEffect(()=>setIsDesktop(desktop),[desktop]);
     
     return (

@@ -9,7 +9,6 @@ const FooterCSS: CSSProperties = {
 const Footer = () => {
     const desktop = useMediaQuery({ minWidth: 795 });
     const [ isDesktop, setIsDesktop ] = useState(true);
-
     useEffect(()=>setIsDesktop(desktop),[desktop]);
     
     return (
@@ -89,7 +88,7 @@ const Footer = () => {
                     clear: 'both',
                     float: 'right',
                     height: '50%',
-                    width: '60%',
+                    width: '50%',
                     alignItems: 'center'
                 }
             }}>
@@ -121,7 +120,7 @@ const Footer = () => {
                         lineHeight: '19px',
                         color: '#9F8F8A',
                         cursor: 'pointer'
-                    }} onClick={()=>window.location.href='https://sunrint.sen.hs.kr/'}>선린 홈페이지</span>
+                    }} onClick={()=>window.location.href='https://sunrint.sen.hs.kr'}>선린 홈페이지</span>
                 </div>
             </div>
         </footer>
