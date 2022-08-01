@@ -4,7 +4,8 @@ import { useMediaQuery } from "react-responsive";
 const info_content = {
     fontSize: '15px',
     lineHeight: '35px',
-    color: '#55423D'
+    color: '#55423D',
+    wordBreak: 'keep-all'
 };
 
 const Introduce = ({ id }: { id: string }) => {
@@ -38,6 +39,7 @@ const Introduce = ({ id }: { id: string }) => {
                         flexGrow: '1',
                         ...isDesktop ? {
                             height: '350px',
+                            width: '40%'
                         } : {
                             textAlign: 'left',
                             paddingInline: '40px'
@@ -57,13 +59,13 @@ const Introduce = ({ id }: { id: string }) => {
                             소프트웨어 { !isDesktop && <br/> }
                             나눔 축제에 대해</div>
                         <p style={info_content}>
-                            선린인터넷고등학교 소프트웨어 나눔 축제, SSF는 2018년부터 개최된 <br />
-                            선린인터넷고등학교의 최대 축제 중 하나입니다. 먼저 소프트웨어를 경험한 <br />
-                            사람들이 미래 세대에게 소프트웨어에 대한 경험을 나누고, 다양한 소프트웨어를 <br />
+                            선린인터넷고등학교 소프트웨어 나눔 축제, SSF는 2018년부터 개최된 
+                            선린인터넷고등학교의 최대 축제 중 하나입니다. 먼저 소프트웨어를 경험한 
+                            사람들이 미래 세대에게 소프트웨어에 대한 경험을 나누고, 다양한 소프트웨어를 
                             직접 만들고 체험해볼 수 있는 행사입니다.
                         </p>
                         <p style={info_content}>
-                            축제에는 수도권에 거주하는 모든 중학생들이 신청할 수 있으며, 학생들은 게임 개발, <br />
+                            축제에는 수도권에 거주하는 모든 중학생들이 신청할 수 있으며, 학생들은 게임 개발, 
                             웹 및 서버 개발 등 다양한 소프트웨어 분야에 대해 체험해볼 수 있습니다.
                         </p>
                         <div style={{
@@ -94,8 +96,14 @@ const Introduce = ({ id }: { id: string }) => {
                             justifyContent: 'space-evenly'
                         }
                     }}>
-                        <img src='images/info1.png' width='326px' height='326px' />
-                        <img src='images/info2.png' width='219px' height='412px' />
+                        <img src='images/info1.png' style={{
+                            width: '50%',
+                            height: 'auto'
+                        }} />
+                        <img src='images/info2.png' style={{
+                            width: '37%',
+                            height: 'auto'
+                        }} />
                     </div>
 
                 </div>

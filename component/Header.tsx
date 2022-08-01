@@ -22,6 +22,7 @@ const Header = () => {
             height: '60px',
             background: 'white',
             boxShadow:' 0px 4px 20px rgba(96, 96, 96, 0.25)',
+            zIndex: 5,
         }}>
             <PageWrapper style={{
                 flexDirection: 'row',

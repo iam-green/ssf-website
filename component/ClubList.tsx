@@ -15,9 +15,6 @@ const ClubList = ({ id }: { id: string }) => {
                 const { name, desc } = ClubData[i*3+j];
                 tag.push(
                     <div key={name} style={{
-                        display: 'flex',
-                        flexDirection: 'row',
-                        // width: '350px',
                         height: '180px',
                         background: '#F6F2F0',
                         borderRadius: '8px',
@@ -25,12 +22,14 @@ const ClubList = ({ id }: { id: string }) => {
                         ...isDesktop ? {
                             width: '30%',
                         } : {
-                            
+                            maxWidth: '500px',
+                            width: '100%'
                         }
                     }}>
                         <div style={{
-                            flexGrow: '1.7',
-                            padding: '20px'
+                            float: 'left',
+                            padding: '20px',
+                            width: '66%'
                         }}>
                             <div style={{
                                 fontFamily: 'SUIT',
@@ -52,12 +51,13 @@ const ClubList = ({ id }: { id: string }) => {
                             }}>{desc}</div>
                         </div>
                         <div style={{
+                            float: 'right',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'space-between',
-                            flexGrow: '1',
                             padding: '20px',
-                            float: 'right'
+                            width: '33%',
+                            height: '100%'
                         }}>
                             <img
                                 src={`images/club/${name.toLowerCase().replace(/:/g,'').replace(/ /g,'')}.svg`}
@@ -71,8 +71,10 @@ const ClubList = ({ id }: { id: string }) => {
                                 fontWeight: '400',
                                 fontSize: '15px',
                                 lineHeight: '19px',
-                                color: '#9F8F8A'
-                            }} onClick={()=>alert('현재 개발중입니다.')} >자세히 보기</span>
+                                color: '#9F8F8A',
+                                wordBreak: 'keep-all',
+                                cursor: 'pointer'
+                            }} onClick={()=>alert('현재 개발중입니다.')}>자세히 보기</span>
                         </div>
                     </div>
                 );
@@ -80,12 +82,13 @@ const ClubList = ({ id }: { id: string }) => {
             result.push(
                 <div key={i+1} style={{
                     width: '100%',
+                    display: 'flex',
                     ...isDesktop ? {
-                        display: 'flex',
                         flexDirection: 'row',
                         justifyContent: 'center',
                     } : {
-
+                        flexDirection: 'column',
+                        alignItems: 'center'
                     }
                 }}>
                     { tag }

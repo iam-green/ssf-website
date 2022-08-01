@@ -13,7 +13,8 @@ const Footer = () => {
     
     return (
         <footer style={{
-            ...FooterCSS,
+            width: '100%',
+            backgroundColor: '#F6F2F0',
             ...isDesktop ? {
                 height: '191px',
                 flexDirection: 'row',
@@ -77,24 +78,24 @@ const Footer = () => {
                 </span>
             </div>
             <div style={{
-                flexGrow: 1,
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center',
                 ...isDesktop ? {
+                    flexGrow: 1,
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
                     marginBottom: '40px',
                     alignItems: 'flex-end'
                 } : {
                     clear: 'both',
                     float: 'right',
-                    height: '50%',
-                    width: '50%',
-                    alignItems: 'center'
+                    width: '50%'
                 }
             }}>
                 <div style={{
-                    display: 'flex',
-                    margin: '5px'
+                    display: 'inline-flex',
+                    margin: '5px',
+                    marginLeft: '20px',
+                    cursor: 'pointer'
                 }}>
                     <img src='images/facebook_brown.png' width='20px' height='20px' />
                     <span style={{
@@ -103,13 +104,14 @@ const Footer = () => {
                         fontWeight: '500',
                         fontSize: '15px',
                         lineHeight: '19px',
-                        color: '#9F8F8A',
-                        cursor: 'pointer'
+                        color: '#9F8F8A'
                     }} onClick={()=>window.location.href='https://www.facebook.com/SSFKorea'}>SSF 페이스북</span>
                 </div>
                 <div style={{
-                    display: 'flex',
-                    margin: '5px'
+                    display: 'inline-flex',
+                    margin: '5px',
+                    marginLeft: '20px',
+                    cursor: 'pointer'
                 }}>
                     <img src='images/sunrin_brown.svg' width='20px' height='20px' />
                     <span style={{
@@ -118,8 +120,7 @@ const Footer = () => {
                         fontWeight: '500',
                         fontSize: '15px',
                         lineHeight: '19px',
-                        color: '#9F8F8A',
-                        cursor: 'pointer'
+                        color: '#9F8F8A'
                     }} onClick={()=>window.location.href='https://sunrint.sen.hs.kr'}>선린 홈페이지</span>
                 </div>
             </div>
