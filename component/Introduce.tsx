@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { CSSProperties, useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-const info_content = {
+const info_content: CSSProperties = {
     fontSize: '15px',
     lineHeight: '35px',
     color: '#55423D',
