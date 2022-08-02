@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import ClubData from '../Club.json';
 
-const ClubList = ({ id }: { id: string }) => {
+const ClubList = ({ id, value }: { id: string, value: any }) => {
     const desktop = useMediaQuery({ minWidth: 970 });
     const [ isDesktop, setIsDesktop ] = useState(true);
     useEffect(()=>setIsDesktop(desktop),[desktop]);
@@ -19,52 +19,50 @@ const ClubList = ({ id }: { id: string }) => {
                         background: '#F6F2F0',
                         borderRadius: '8px',
                         margin: '7px',
+                        padding: '20px',
                         ...isDesktop ? {
-                            width: '30%',
+                            width: '31%',
                         } : {
                             maxWidth: '500px',
                             width: '100%'
-                        }
-                    }}>
+                        },
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'space-between'
+                    }} onClick={()=>value(i*3+j)}>
                         <div style={{
-                            float: 'left',
-                            padding: '20px',
-                            width: '66%'
-                        }}>
-                            <div style={{
-                                fontFamily: 'SUIT',
-                                fontStyle: 'normal',
-                                fontWeight: '600',
-                                fontSize: '24px',
-                                lineHeight: '30px',
-                                color: '#3B2821',
-                            }}>{name}</div>
-                            <div style={{
-                                fontFamily: 'SUIT',
-                                fontStyle: 'normal',
-                                fontWeight: '500',
-                                fontSize: '14px',
-                                lineHeight: '19px',
-                                color: '#55423D',
-                                marginBlock: '10px',
-                                wordBreak: 'keep-all'
-                            }}>{desc}</div>
-                        </div>
-                        <div style={{
-                            float: 'right',
                             display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'space-between',
-                            padding: '20px',
-                            width: '33%',
-                            height: '100%'
+                            flexDirection: 'row',
+                            justifyContent: 'space-between'
                         }}>
+                            <div>
+                                <div style={{
+                                    fontFamily: 'SUIT',
+                                    fontStyle: 'normal',
+                                    fontWeight: '600',
+                                    fontSize: '24px',
+                                    lineHeight: '30px',
+                                    color: '#3B2821',
+                                }}>{name}</div>
+                                <div style={{
+                                    fontFamily: 'SUIT',
+                                    fontStyle: 'normal',
+                                    fontWeight: '500',
+                                    fontSize: '14px',
+                                    lineHeight: '19px',
+                                    color: '#55423D',
+                                    marginBlock: '10px',
+                                    wordBreak: 'keep-all'
+                                }}>{desc}</div>
+                            </div>
                             <img
                                 src={`images/club/${name.toLowerCase().replace(/:/g,'').replace(/ /g,'')}.svg`}
                                 width='70px'
                                 height='70px'
                                 alt={`${name} logo`}
                             />
+                        </div>
+                        <div>
                             <span style={{
                                 fontFamily: 'SUIT',
                                 fontStyle: 'normal',
@@ -73,8 +71,9 @@ const ClubList = ({ id }: { id: string }) => {
                                 lineHeight: '19px',
                                 color: '#9F8F8A',
                                 wordBreak: 'keep-all',
-                                cursor: 'pointer'
-                            }} onClick={()=>alert('현재 개발중입니다.')}>자세히 보기</span>
+                                cursor: 'pointer',
+                                float: 'right'
+                            }}>자세히 보기</span>
                         </div>
                     </div>
                 );

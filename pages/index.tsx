@@ -11,11 +11,18 @@ import PageWrapper from "../component/PageWrapper";
 import Schedule from "../component/Schedule";
 import { useMediaQuery } from "react-responsive";
 import { useEffect, useState } from "react";
+import ClubData from '../Club.json';
+import ClubModal from "../component/ClubModal";
 
 const Home: NextPage = () => {
     const desktop = useMediaQuery({ minWidth: 795 });
     const [ isDesktop, setIsDesktop ] = useState(true);
+    const [ nowModal, setModal ] = useState(-1);
     useEffect(()=>setIsDesktop(desktop),[desktop]);
+
+    useEffect(() => {
+        document.body.style.overflow = (0 <= nowModal && nowModal <= ClubData.length-1) ?  'hidden' : 'unset';
+    }, [nowModal]);
     
     return (
         <>
@@ -25,12 +32,12 @@ const Home: NextPage = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            { 0 <= nowModal && nowModal <= ClubData.length-1 && <ClubModal data={ClubData[nowModal]} value={setModal}/> }
             <Header/>
             { isDesktop ? <Banner/> : <MobileBanner/> }
-
             <PageWrapper>
                 <Introduce id='introduce'/>
-                <ClubList id='club'/>
+                <ClubList id='club' value={setModal}/>
                 <Schedule id='schedule'/>
                 <Application id='application'/>
             </PageWrapper>

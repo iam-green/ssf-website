@@ -79,7 +79,7 @@ const Introduce = ({ id }: { id: string }) => {
                             border: '1px solid #E3DAD7',
                             borderRadius: '12px',
                             cursor: 'pointer'
-                        }} onClick={()=>window.location.href='https://www.facebook.com/SSFKorea'}>
+                        }} onClick={()=>window.open('https://www.facebook.com/SSFKorea','_blank')}>
                             <span>SSF 페이스북 페이지</span>
                             <img src='images/arrow_forward.svg'></img>
                         </div>

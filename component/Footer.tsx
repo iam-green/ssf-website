@@ -105,7 +105,7 @@ const Footer = () => {
                         fontSize: '15px',
                         lineHeight: '19px',
                         color: '#9F8F8A'
-                    }} onClick={()=>window.location.href='https://www.facebook.com/SSFKorea'}>SSF 페이스북</span>
+                    }} onClick={()=>window.open('https://www.facebook.com/SSFKorea','_blank')}>SSF 페이스북</span>
                 </div>
                 <div style={{
                     display: 'inline-flex',
@@ -121,7 +121,7 @@ const Footer = () => {
                         fontSize: '15px',
                         lineHeight: '19px',
                         color: '#9F8F8A'
-                    }} onClick={()=>window.location.href='https://sunrint.sen.hs.kr'}>선린 홈페이지</span>
+                    }} onClick={()=>window.open('https://sunrint.sen.hs.kr','_blank')}>선린 홈페이지</span>
                 </div>
             </div>
         </footer>
