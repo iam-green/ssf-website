@@ -77,6 +77,7 @@ const ClubModal = ({ data, value }: {
                             }}
                             src='images/close.svg'
                             onClick={()=>value(-1)}
+                            alt='close modal'
                         />
                     </div>
                     <div>
@@ -100,6 +101,7 @@ const ClubModal = ({ data, value }: {
                                 height: '90%'
                             }}
                             src={`images/club/${data.name.toLowerCase().replace(/:/g,'').replace(/ /g,'')}.svg`}
+                            alt={`${data.name} icon`}
                         />
                     </div>
                     <div>
@@ -109,7 +111,7 @@ const ClubModal = ({ data, value }: {
                             marginLeft: '0px',
                             cursor: 'pointer'
                         }}>
-                            <img src='images/home_brown.svg' width='20px' height='20px' />
+                            <img src='images/home_brown.svg' width='20px' height='20px' alt={`${data.name} website`}/>
                             <span style={{
                                 fontFamily: 'SUIT',
                                 fontStyle: 'normal',
@@ -126,7 +128,7 @@ const ClubModal = ({ data, value }: {
                                 marginLeft: '12px',
                                 cursor: 'pointer'
                             }}>
-                                <img src='images/instagram_brown.svg' width='20px' height='20px' />
+                                <img src='images/instagram_brown.svg' width='20px' height='20px' alt={`${data.name} instagram`}/>
                                 <span style={{
                                     fontFamily: 'SUIT',
                                     fontStyle: 'normal',
@@ -143,7 +145,7 @@ const ClubModal = ({ data, value }: {
                             marginLeft: '12px',
                             cursor: 'pointer'
                         }}>
-                            <img src='images/facebook_brown.png' width='20px' height='20px' />
+                            <img src='images/facebook_brown.png' width='20px' height='20px' alt={`${data.name} facebook`}/>
                             <span style={{
                                 fontFamily: 'SUIT',
                                 fontStyle: 'normal',

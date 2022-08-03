@@ -57,28 +57,28 @@ const Schedule = ({ id } : { id: string }) => {
                         title={<>8월 24일<br/>접수 시작</>}
                         context='소프트웨어 나눔축제 접수를 시작합니다.'
                         color='#FCF7DB'
-                        icon={<img src='images/schedule_1.png'/>}
+                        icon={<img src='images/schedule_1.png' alt='schedule logo'/>}
                         style={CardCSS}
                     />
                     <Card
                         title={<>8월 30일<br/>접수 종료</>}
                         context='참가자를 선정하고 안내문자를 발송합니다.'
                         color='#FCF1E0'
-                        icon={<img src='images/schedule_2.png'/>}
+                        icon={<img src='images/schedule_2.png' alt='schedule logo'/>}
                         style={CardCSS}
                     />
                     <Card
                         title={<>9월 1일<br/>캠프 운영</>}
                         context='캠프별 수업을 진행합니다.'
                         color='#FBEDE8'
-                        icon={<img src='images/schedule_3.png'/>}
+                        icon={<img src='images/schedule_3.png' alt='schedule logo'/>}
                         style={CardCSS}
                     />
                     <Card
                         title={<>9월 10일<br/>캠프 종료</>}
                         context='소프트웨어 나눔축제를 마무리합니다.'
                         color='#FBEBE8'
-                        icon={<img src='images/schedule_4.png'/>}
+                        icon={<img src='images/schedule_4.png' alt='schedule logo'/>}
                         style={CardCSS}
                     />
                 </div>
