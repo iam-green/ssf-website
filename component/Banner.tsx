@@ -55,11 +55,11 @@ const Banner = () => {
                         ...BannerContent,
                         lineHeight: '34px'
                     }}>
-                        <span style={Bold}>2022년 9월 1일 월요일부터</span> <br/>
-                        9월 10일 토요일까지
+                        <span style={Bold}>2022년 8월 27일 토요일 13시부터</span> <br/>
+                        8월 27일 토요일 17시까지
                     </p>
                     <p style={BannerContent}>
-                        서울특별시 용산구 원효로97길 33-4 <span style={Bold}>선린인터넷고등학교에서</span>
+                        서울특별시 용산구 원효로97길 33-4 <span style={Bold}>선린인터넷고등학교</span>에서
                     </p>
                     <div style={{
                         display: 'flex',

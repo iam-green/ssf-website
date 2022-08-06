@@ -78,8 +78,8 @@ const MobileBanner = () => {
                     height: '28%',
                     marginLeft: '30px'
                 }}>
-                    <span style={{ margin: '6px', ...Bold }}>2022년 9월 1일 월요일부터</span>
-                    <span style={{ margin: '6px' }}>9월 10일 토요일까지</span>
+                    <span style={{ margin: '6px', ...Bold }}>2022년 8월 27일 토요일 13시부터</span>
+                    <span style={{ margin: '6px' }}>8월 27일 토요일 17시까지</span>
                 </div>
                 <div style={{
                     flexGrow: 1,
