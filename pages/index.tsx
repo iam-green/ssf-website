@@ -32,7 +32,7 @@ const Home: NextPage = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            { 0 <= nowModal && nowModal <= ClubData.length-1 && <ClubModal data={ClubData[nowModal]} value={setModal}/> }
+            { nowModal != -1 && <ClubModal data={ClubData[nowModal]} value={setModal}/> }
             <Header/>
             { isDesktop ? <Banner/> : <MobileBanner/> }
             <PageWrapper>
