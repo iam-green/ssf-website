@@ -94,7 +94,7 @@ const Application = ({ id } : { id: string }) => {
                                 return new Date(+date + (date.getTimezoneOffset() * 60 * 1000) + 9 * 60 * 60 * 1000);
                             }
                             const start = getDate(new Date(2022,7,16));
-                            const end = getDate(new Date(2022,7,22));
+                            const end = getDate(new Date(2022,7,22,13));
                             const now = getDate(new Date());
                             if(+now < +start) alert('신청기간이 아닙니다.\n(8월 16일부터 22일까지입니다.)');
                             else if (+now > +end) alert('신청이 마감되었습니다.');
