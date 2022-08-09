@@ -105,7 +105,7 @@ const Footer = () => {
                         fontSize: '15px',
                         lineHeight: '19px',
                         color: '#9F8F8A'
-                    }} onClick={()=>window.open('https://www.facebook.com/SSFKorea','_blank')}>SSF 페이스북</span>
+                    }} onClick={()=>window.open('/facebook','_blank')}>SSF 페이스북</span>
                 </div>
                 <div style={{
                     display: 'inline-flex',
