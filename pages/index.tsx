@@ -28,7 +28,14 @@ const Home: NextPage = () => {
         <>
             <Head>
                 <title>SSF</title>
+                <meta charSet='utf-8' />
                 <meta name="description" content="선린인터넷고등학교 소프트웨어 나눔축제" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://swfestival.kr" />
+                <meta property="og:title" content="2022 SSF" />
+                <meta property="og:description" content="선린인터넷고등학교 소프트웨어 나눔축제" />
+                <meta property="og:image" content="https://swfestival.kr/images/logo.svg" />
+                <meta property="og:locale" content="ko_KR" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
