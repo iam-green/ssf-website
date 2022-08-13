@@ -27,7 +27,7 @@ const Home: NextPage = () => {
     return (
         <>
             <Head>
-                <title>SSF</title>
+                <title>2022 SSF</title>
                 <meta charSet='utf-8' />
                 <meta name="description" content="선린인터넷고등학교 소프트웨어 나눔축제" />
                 <meta property="og:type" content="website" />
@@ -36,6 +36,7 @@ const Home: NextPage = () => {
                 <meta property="og:description" content="선린인터넷고등학교 소프트웨어 나눔축제" />
                 <meta property="og:image" content="https://swfestival.kr/images/logo.svg" />
                 <meta property="og:locale" content="ko_KR" />
+                <meta name="naver-site-verification" content="2fe98733389cff756a56515849b639897c9bef9f" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
