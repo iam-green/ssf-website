@@ -36,6 +36,11 @@ const Home: NextPage = () => {
                 <meta property="og:description" content="선린인터넷고등학교 소프트웨어 나눔축제" />
                 <meta property="og:image" content="https://swfestival.kr/images/logo.svg" />
                 <meta property="og:locale" content="ko_KR" />
+                <meta name="twitter:card" content="website" />
+                <meta name="twitter:title" content="2022 SSF" />
+                <meta name="twitter:description" content="페선린인터넷고등학교 소프트웨어 나눔축제" />
+                <meta name="twitter:image" content="https://swfestival.kr" />
+                <meta name="twitter:domain" content="SSF" />
                 <meta name="naver-site-verification" content="2fe98733389cff756a56515849b639897c9bef9f" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
