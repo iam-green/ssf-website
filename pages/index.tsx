@@ -43,6 +43,7 @@ const Home: NextPage = () => {
                 <meta name="twitter:domain" content="SSF" />
                 <meta name="naver-site-verification" content="2fe98733389cff756a56515849b639897c9bef9f" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="canonical" href="https://swfestival.kr"></link>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             { nowModal != -1 && <ClubModal data={ClubData[nowModal]} value={setModal}/> }
