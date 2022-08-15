@@ -84,7 +84,7 @@ const Banner = () => {
                             const now = getDate(new Date());
                             if(+now < +start) alert('신청기간이 아닙니다.\n(8월 16일부터 22일까지입니다.)');
                             else if (+now > +end) alert('신청이 마감되었습니다.');
-                            else window.location.href='';
+                            else window.location.href='https://docs.google.com/forms/d/1jDD0eo-88FUTLaKCYaP1yNZem38VtLfCdGf1v6ETCsQ/viewform?ts=62f75da3&edit_requested=true';
                         }}>지금 신청하기</span>
                         <img src='images/arrow_forward_white.svg' alt='배너 배경'/>
                     </div>
