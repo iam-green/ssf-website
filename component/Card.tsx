@@ -72,7 +72,7 @@ const Card = ({
                 position: 'relative',
                 zIndex: '1',
                 wordBreak: 'keep-all',
-                width: '70%'
+                width: '80%'
             }}>
                 {context}
             </div>
