@@ -49,7 +49,7 @@ const Introduce = ({ id }: { id: string }) => {
                             color: '#E47D5B',
                             fontSize: '15px',
                             lineHeight: '40px',
-                        }}>SFF 소개</div>
+                        }}>SSF 소개</div>
                         <div style={{
                             fontWeight: '700',
                             fontSize: '24px',
