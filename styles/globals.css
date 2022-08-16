@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.swiper-pagination-bullet:nth-child(1).swiper-pagination-bullet-active {
+  background-color: #EBCB20;
+}
+
+.swiper-pagination-bullet:nth-child(2).swiper-pagination-bullet-active {
+  background-color: #EB9B20;
+}
+
+.swiper-pagination-bullet:nth-child(3).swiper-pagination-bullet-active {
+  background-color: #E47D5B;
+}
+
+.swiper-pagination-bullet:nth-child(4).swiper-pagination-bullet-active {
+  background-color: #DE5640;
+}
