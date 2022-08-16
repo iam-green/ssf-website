@@ -70,7 +70,7 @@ const Introduce = ({ id }: { id: string }) => {
                         </p>
                         <div style={{
                             display: 'flex',
-                            width: '190px',
+                            width: '200px',
                             flexDirection: 'row',
                             justifyContent: 'space-between',
                             boxSizing: 'border-box',
