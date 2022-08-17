@@ -17,6 +17,13 @@ const ClubModal = ({ data, value }: {
     const [ isDesktop, setIsDesktop ] = useState(true);
     useEffect(()=>setIsDesktop(desktop),[desktop]);
 
+    document.addEventListener('keydown',(event: KeyboardEvent) => {
+        if(event.key=='Escape') {
+            event.preventDefault();
+            value(-1);
+        }
+    });
+
     return (
         <div style={{
             position: 'fixed',
