@@ -41,8 +41,14 @@ const Footer = () => {
                 <div tabIndex={0} style={{
                     display: 'flex',
                     flexDirection: 'row',
-                    justifyContent: 'center'
-                }}>
+                    justifyContent: 'center',
+                    cursor: 'help'
+                }} onClick={()=>alert([
+                    'Website Developer',
+                    'Yun Do Hyeon',
+                    'IWOP 22nd 부부장',
+                    'https://github.com/f1n2'
+                ].join('\n'))}>
                     <span style={{
                         fontFamily: 'SUIT',
                         fontStyle: 'normal',
