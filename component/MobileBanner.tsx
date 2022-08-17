@@ -22,7 +22,7 @@ const MobileBanner = () => {
                 marginInline: '30px',
                 height: '50%'
             }}>
-                <div style={{ 
+                <div tabIndex={0} style={{ 
                     flexGrow: 1,
                     fontFamily: 'Kollektif',
                     fontSize: '40px',
@@ -38,7 +38,7 @@ const MobileBanner = () => {
                     <span><span style={Bold}>S</span>hare</span>
                     <span><span style={Bold}>F</span>estival</span>
                 </div>
-                <div style={{
+                <div tabIndex={0} style={{
                     flexGrow: 1,
                     display: 'flex',
                     flexDirection: 'column',
@@ -70,7 +70,7 @@ const MobileBanner = () => {
                 color: '#ffffff',
                 width: '100%'
             }}>
-                <div style={{
+                <div tabIndex={0} style={{
                     flexGrow: 1,
                     display: 'flex',
                     flexDirection: 'column',
@@ -81,7 +81,7 @@ const MobileBanner = () => {
                     <span style={{ margin: '6px', ...Bold }}>2022년 8월 27일 토요일 13시부터</span>
                     <span style={{ margin: '6px' }}>8월 27일 토요일 17시까지</span>
                 </div>
-                <div style={{
+                <div tabIndex={0} style={{
                     flexGrow: 1,
                     display: 'flex',
                     flexDirection: 'column',
@@ -103,7 +103,7 @@ const MobileBanner = () => {
                     height: '44%',
                     marginLeft: '30px'
                 }}>
-                    <div style={{
+                    <div tabIndex={0} style={{
                         display: 'flex',
                         width: '148px',
                         flexDirection: 'row',

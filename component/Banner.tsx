@@ -26,7 +26,7 @@ const Banner = () => {
                 justifyContent: 'space-between',
                 height: '100%',
             }}>
-                <div className='left' style={{
+                <div tabIndex={0} className='left' style={{
                     fontFamily: 'Kollektif',
                     fontSize: '64px',
                     lineHeight: '77px',
@@ -50,18 +50,18 @@ const Banner = () => {
                     width: '100%',
                     marginRight: '20px'
                 }}>
-                    <p style={BannerContent}><span style={Bold}>제 5회 선린인터넷고등학교 소프트웨어 나눔 축제</span></p>
-                    <p style={{
+                    <p tabIndex={0} style={BannerContent}><span style={Bold}>제 5회 선린인터넷고등학교 소프트웨어 나눔 축제</span></p>
+                    <p tabIndex={0} style={{
                         ...BannerContent,
                         lineHeight: '34px'
                     }}>
                         <span style={Bold}>2022년 8월 27일 토요일 13시부터</span> <br/>
                         8월 27일 토요일 17시까지
                     </p>
-                    <p style={BannerContent}>
+                    <p tabIndex={0} style={BannerContent}>
                         서울특별시 용산구 원효로97길 33-4 <span style={Bold}>선린인터넷고등학교</span>에서
                     </p>
-                    <div style={{
+                    <div tabIndex={0} style={{
                         display: 'flex',
                         width: '148px',
                         flexDirection: 'row',

@@ -38,7 +38,7 @@ const Footer = () => {
                     alignItems: 'flex-start'
                 } 
             }}>
-                <div style={{
+                <div tabIndex={0} style={{
                     display: 'flex',
                     flexDirection: 'row',
                     justifyContent: 'center'
@@ -54,7 +54,7 @@ const Footer = () => {
                     }}>선린인터넷고등학교</span>
                     <img src='images/sunrin.svg' alt='선린인터넷고등학교 로고' />
                 </div>
-                <span style={{
+                <span tabIndex={0} style={{
                     fontFamily: 'SUIT',
                     fontStyle: 'normal',
                     fontWeight: '500',
@@ -65,7 +65,7 @@ const Footer = () => {
                 }}>
                     서울특별시 용산구 원효로97길 33-4
                 </span>
-                <span style={{
+                <span tabIndex={0} style={{
                     fontFamily: 'SUIT',
                     fontStyle: 'normal',
                     fontWeight: '500',
@@ -91,7 +91,7 @@ const Footer = () => {
                     width: '50%'
                 }
             }}>
-                <div style={{
+                <div tabIndex={0} style={{
                     display: 'inline-flex',
                     margin: '5px',
                     marginLeft: '20px',
@@ -107,7 +107,7 @@ const Footer = () => {
                         color: '#9F8F8A'
                     }} onClick={()=>window.open('/facebook','_blank')}>SSF 페이스북</span>
                 </div>
-                <div style={{
+                <div tabIndex={0} style={{
                     display: 'inline-flex',
                     margin: '5px',
                     marginLeft: '20px',

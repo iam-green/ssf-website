@@ -30,7 +30,7 @@ const Schedule = ({ id } : { id: string }) => {
                     color: '#E47D5B',
                     padding: '10px',
                 }}>일정</div>
-                <div style={{
+                <div tabIndex={0} style={{
                     fontFamily: 'SUIT',
                     fontStyle: 'normal',
                     fontWeight: '700',

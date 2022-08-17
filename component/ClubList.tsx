@@ -42,7 +42,7 @@ const ClubList = ({ id, value }: { id: string, value: any }) => {
                     color: '#E47D5B',
                     padding: '10px',
                 }}>캠프소개</div>
-                <div style={{
+                <div tabIndex={0} style={{
                     fontFamily: 'SUIT',
                     fontStyle: 'normal',
                     fontWeight: '700',

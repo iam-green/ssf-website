@@ -8,7 +8,7 @@ const ClubCard = ({ data, value }:{ data: any, value: any }) => {
     useEffect(() => setIsDesktop(desktop), [desktop]);
 
     return (
-        <div key={ClubData[data].name} style={{
+        <div tabIndex={0} key={ClubData[data].name} style={{
             height: '180px',
             background: '#F6F2F0',
             borderRadius: '8px',

@@ -23,7 +23,7 @@ const Card = ({
     useEffect(()=>setIsDesktop(desktop),[desktop]);
 
     return (
-        <div style={{
+        <div tabIndex={0} style={{
             background: color,
             borderRadius: '8px',
             padding: '20px',
